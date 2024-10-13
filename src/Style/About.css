@@ -1,0 +1,98 @@
+/* Hero Section */
+#about-hero {
+    width: 100vw;
+    height: 55vh;
+    background-image: linear-gradient(to right, rgba(30, 30, 30, 1) 0%, rgba(45, 45, 45, 1) 60%, rgba(60, 60, 60, 1) 100%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#about-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#about-hero p {
+    font-size: 1.2rem;
+}
+
+/* About Content Section */
+#about-content {
+    width: 100vw;
+    height: 60vh;
+    padding: 2rem;
+    /* background-color: rgba(40, 40, 40, 0.8); */
+    text-align: left;
+    color: white;   
+    background-image: url("../Images/About\ Us.jpg");
+    background-size: 100%;
+    background-position: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#about-content p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+#about-content ul {
+    list-style: disc;
+    margin-left: 1.5rem;
+    font-size: 1rem;
+}
+
+/* Our Impact Section */
+#impact-section {
+    width: 100vw;
+    padding: 2rem;
+    background-color: rgba(30, 30, 30, 0.9);
+    color: white;
+}
+
+#impact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#impact-section p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+#impact-section ul {
+    list-style: disc;
+    margin-left: 1.5rem;
+    font-size: 1rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #about-content {
+        padding: 1rem;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #about-hero h1 {
+        font-size: 2.5rem;
+    }
+
+    #about-hero p {
+        font-size: 1rem;
+    }
+    #impact-section {
+        padding: 1rem;
+        text-align: center;
+
+    }
+}
